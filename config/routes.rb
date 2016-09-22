@@ -1,6 +1,7 @@
 Rails.application.routes.draw do
+  mount Ckeditor::Engine => '/ckeditor'
   root 'admin/dashboard#index'
-  
+
   devise_for :users
 
   namespace :admin do

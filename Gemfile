@@ -48,3 +48,8 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 gem 'mongoid'
 gem 'haml-rails'
 gem 'devise'
+gem 'carrierwave'
+gem 'carrierwave-mongoid'
+gem 'mongoid-grid_fs'
+gem 'ckeditor'
+gem 'rails-ckeditor'
