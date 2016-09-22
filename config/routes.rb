@@ -1,5 +1,8 @@
 Rails.application.routes.draw do
+  root 'admin/dashboard#index'
+  
   devise_for :users
+
   namespace :admin do
     get '', to: 'dashboard#index', as: ''
   end
